@@ -1,0 +1,167 @@
+/************************ Elements Selectors *****************************/
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+
+
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 ;
+  color: #66BFBF;
+
+
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+}
+a{
+  color:  #11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr{
+  border: none;
+  border-top: dotted;
+  width: 5%;
+  border-width: 6px;
+  color: #EAF6F6;
+}
+p{
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/************************ Class Selectors ******************************/
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 50px;
+  position: relative;
+}
+
+
+
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.size-img{
+  width : 25%;
+
+}
+
+.subtext {
+
+  font-size: 1.5rem;
+  font-weight: normal;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.coding{
+  float: left;
+  margin-right: 30px;
+}
+.chillies{
+  float: right;
+  margin-left: 30px;
+}
+.profile{
+
+  margin: 100px 0;
+
+}
+.intro{
+  width: 30%;
+  margin :auto;
+}
+.skills{
+  margin-top: 100px;
+}
+.contact-me{
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto;
+
+}
+.add-bottom-margin{
+  margin-bottom: 100px;
+
+}
+.btn:hover{
+  color: black;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 20px;
+  line-height: 2;
+}
+.footer-link{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.copy-right{
+  color: #EAF6F6;
+  font-size: .7rem;
+}
+/******************** Some Traning Exercises *****************************/
+
+.red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  display: inline-block;
+}
+
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  display: inline-block;
+}
+
+.yellow {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 400px;
+  display: inline-block;
+}
